@@ -1,0 +1,70 @@
+/* .Navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--White);
+
+
+  }
+
+  
+  .Navbar a{
+    text-decoration: none;
+    color: var(--Black);
+    font-size: 20px;
+    
+  }
+
+  .Links{
+    display: flex;
+    gap:10px;
+    flex-direction: row;
+    width: 350px;
+    padding: 10px;
+    
+
+  }
+
+
+  img{
+    width: 100px;
+    height: 75;
+  }
+
+   */
+
+   .Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--White);
+    padding: 10px;
+  }
+  
+  .Navbar img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .Navbar a {
+    text-decoration: none;
+    color: var(--Black);
+    font-size: 20px;
+  }
+  
+  .Links {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    padding: 10px;
+  }
+  
+  .Links button {
+    padding: 8px 16px;
+    background-color: var(--Blue);
+    color: var(--White);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
